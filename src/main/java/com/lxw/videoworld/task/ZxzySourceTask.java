@@ -1,7 +1,9 @@
 package com.lxw.videoworld.task;
 
 import com.lxw.videoworld.dao.ZxzySourceDao;
-import com.lxw.videoworld.spider.*;
+import com.lxw.videoworld.spider.ZxzyPageProcessor;
+import com.lxw.videoworld.spider.ZxzySourceDetailPipeline;
+import com.lxw.videoworld.spider.ZxzySourceDetailProcessor;
 import com.lxw.videoworld.utils.URLUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;

@@ -42,6 +42,15 @@ public class SourceDetail implements Serializable {
     private String date;// 网站更新时间
     private String status;
     private long time;// 数据库时间
+    private String sourceType  = "4";
+
+    public String getSourceType() {
+        return sourceType;
+    }
+
+    public void setSourceType(String sourceType) {
+        this.sourceType = sourceType;
+    }
 
     public String getUrl() {
         return url;

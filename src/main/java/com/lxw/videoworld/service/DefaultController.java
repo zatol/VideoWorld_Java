@@ -19,7 +19,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import us.codecraft.webmagic.Spider;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.xml.transform.Result;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.HashMap;
